@@ -20,7 +20,6 @@ const Home = ({ ratio }) => {
       onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
     });
   };
-
   const animations = {
     h1: {
       initial: {
@@ -53,7 +52,7 @@ const Home = ({ ratio }) => {
 
           <Typewriter
             options={{
-              strings: ["A Developer", "A Designer", "A Creator"],
+              strings: ["I am a Web ", "A Designer", "A Creator"],
               autoStart: true,
               loop: true,
               cursor: "",
